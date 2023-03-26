@@ -1,17 +1,18 @@
 //
-// Assignment3App.swift : Assignment3
+//  Assignment3App.swift
+//  Assignment3
 //
-// Copyright © 2023 Auburn University.
-// All Rights Reserved.
-
+//  Created by user230914 on 3/25/23.
+//
 
 import SwiftUI
 
 @main
-struct Assignment3App: App {
+struct RickAndMortyApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            CharacterListView()
         }
     }
 }
+
